@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I could find a small typo in a matter of 2 seconds in files over 1000 lines of code.
+diff -u file1 file2
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+quiet efficient i guess, because i can look over my code and see how i can refactor it in a better way..or start over 
+from a previous version and branch it out 
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+no con as such and pros are u get to choose
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+git log --stat
+➜  asteroids git:(master) git log --stat
+➜  asteroids git:(master) git config --global color.ui auto
+➜  asteroids git:(master) git log --stat                   
+➜  asteroids git:(master) git log --stat                                   
+➜  asteroids git:(master) git diff df035382c41b4d0cda86a1aa30b53f15bef05b53 b0678b161fcf74467ed3a63110557e3d6229cfa6
+➜  asteroids git:(master) git log --stat                                                                            
+➜  asteroids git:(master) git diff f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6 
+➜  asteroids git:(master) git log --stat                                                                            
+
+
+How might using version control make you more confident to make changes that could break something?
+i can always checkout to a previous commit to see that which comit caused that particular bug an with the diff commang check that what did i
+ change to possibly cause that bug
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+my android project
+
+

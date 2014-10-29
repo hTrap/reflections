@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+i need to make the first commit because git doesnt make any commits when the repository is initialised
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area is the middle place so that you ca commit all the files together in your repository.
+By using git status it allows us to review the staging before making any final commit to the repository

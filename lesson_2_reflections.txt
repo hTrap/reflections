@@ -19,3 +19,8 @@ function on experimental basis
 
 How do the diagrams help you visualize the branch structure?
 the give us a visual image of the commit which the terminal never shoes
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging to branches bring all the features of the two branches together with some conflicts.. we represent the diagram because we want to see the depency of all the files and the detatched head states

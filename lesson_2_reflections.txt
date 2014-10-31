@@ -9,3 +9,9 @@ By using git status it allows us to review the staging before making any final c
 
 How can you use the staging area to make sure you have one commit per logical change?
 add a ile to the staging  area and then commit it to the repository using git diff and git diff --stage
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+whenever i want to ckeckout an experimental change i can create a new branch without hinderning any old code work on a new 
+function on experimental basis

@@ -24,3 +24,9 @@ the give us a visual image of the commit which the terminal never shoes
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 merging to branches bring all the features of the two branches together with some conflicts.. we represent the diagram because we want to see the depency of all the files and the detatched head states
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+the merges are not conflict free and hence manual merging is beneficial
